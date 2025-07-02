@@ -1,0 +1,12 @@
+{
+    "venvPath": ".",
+    "venv": "local_env/meeting-minutes-local",
+    "pythonPath": "./local_env/meeting-minutes-local/python.exe",
+    "extraPaths": [
+        "."
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.8",
+    "typeCheckingMode": "basic"
+} 

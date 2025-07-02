@@ -1,0 +1,25 @@
+# Core dependencies
+customtkinter>=5.2.0
+pillow>=10.0.0
+
+# Audio processing
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# Speech recognition
+modelscope>=1.9.5
+funasr>=0.10.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Document processing
+python-docx>=0.8.11
+
+# Other tools
+numpy>=1.24.0
+scipy>=1.10.0
+librosa>=0.10.0
+soundfile>=0.12.0 

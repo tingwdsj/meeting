@@ -1,0 +1,20 @@
+{
+  "ollama_api_url": "http://127.0.0.1:11434/v1/chat/completions",
+  "ollama_model": "deepseek-r1:1.5b",
+  "max_audio_duration": 7200,
+  "max_file_size": 1073741824,
+  "audio_format": "mp3",
+  "audio_sample_rate": 16000,
+  "audio_channels": 1,
+  "log_dir": "logs",
+  "log_retention_days": 30,
+  "enable_conversation_logging": true,
+  "log_level": "INFO",
+  "default_prompt": "请根据以下会议录音文本和会议描述信息，生成一份格式化的会议纪要。\n\n会议描述信息：\n{meeting_info}\n\n会议录音文本：\n{transcription}\n\n请按照以下格式生成会议纪要：\n\n# 会议纪要\n\n## 会议基本信息\n- 会议时间：{meeting_time}\n- 会议地点：{meeting_location}\n- 主持人：{host}\n- 参会人员：{participants}\n\n## 会议议题\n{topics}\n\n## 会议内容\n{content}\n\n## 会议决议\n{decisions}\n\n## 后续行动\n{actions}\n\n请确保会议纪要内容准确、简洁、条理清晰，突出重点内容。",
+  "temp_dir": "temp",
+  "speech_model": "SenseVoiceSmall",
+  "use_gpu": true,
+  "window_width": 1200,
+  "window_height": 800,
+  "theme": "dark"
+}
