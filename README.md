@@ -1,4 +1,4 @@
-# meeting
+# meeting-minutes-local
 # 会议纪要生成神器（本地保密版）V1.0
 
 ## 项目简介
